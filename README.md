@@ -21,6 +21,7 @@ This respository aims to maintain a list of useful relevant papers and open sour
    *Yaochu Jin, Handing Wang, Chaoli Sun*
 
    **Data-Driven Evolutionary Optimization: An Overview and Case Studies** 2019 [paper](https://ieeexplore.ieee.org/document/8456559/)
+   
    *Yaochu Jin, Handing Wang, Tinkle Chugh, Dan Guo and Kaisa Miettinen*
 
 
