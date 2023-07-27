@@ -62,7 +62,7 @@ This respository aims to maintain a list of useful relevant papers and open sour
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
 |TS-SAEA|A Two-stage Surrogate-Assisted Evolutionary Algorithm (TS-SAEA) for Expensive Multi/Many-objective Optimization *2022* [paper](https://linkinghub.elsevier.com/retrieve/pii/S2210650222000773)|-|
-|REMO|Expensive Multiobjective Optimization by Relation Learning and Prediction *2022* [paper](https://ieeexplore.ieee.org/document/9716917/)}|[ilog-ecnu/REMO](https://github.com/ilog-ecnu/REMO)|
+|REMO|Expensive Multiobjective Optimization by Relation Learning and Prediction *2022* [paper](https://ieeexplore.ieee.org/document/9716917/)|[ilog-ecnu/REMO](https://github.com/ilog-ecnu/REMO)|
 |$\theta$-dea-dp|Expensive Multiobjective Evolutionary Optimization Assisted by Dominance Prediction *2022* [paper](https://ieeexplore.ieee.org/document/9490636)|[yyxhdy/tdeadp](https://github.com/yyxhdy/tdeadp)|
 |prob-RVEA [offline]|Probabilistic Selection Approaches in Decomposition-Based Evolutionary Algorithms for Offline Data-Driven Multiobjective Optimization *2022*|[industrial-optimization-group/offline_data_driven_moea](https://github.com/industrial-optimization-group/offline_data_driven_moea)|
 |IBEA-MS [offline]|Performance Indicator-Based Adaptive Model Selection for Offline Data-Driven Multiobjective Evolutionary Optimization *2022* [paper](https://ieeexplore.ieee.org/document/9774966/)|[HandingWangXDGroup/IBEA-MS](https://github.com/HandingWangXDGroup/IBEA-MS)|
