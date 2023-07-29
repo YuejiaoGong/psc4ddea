@@ -1,65 +1,63 @@
-  # Useful papers and source codes for Data-driven Evolutionary Algorithms
+  # Useful Papers and Source Codes for Data-Driven Evolutionary Algorithms （DDEAs)
 
-This respository aims to maintain a list of useful relevant papers and open source codes for Data-driven Evolutionary Algorithms.
+This respository aims to maintain a list of useful relevant papers and open source codes for Data-Driven Evolutionary Algorithms (DDEAs).
 
-*Maintained by members in SCUT-Ailab: Yuanting Zhong, Haogan Huang, xianrong Zhang, Yuhong Sun and the tutor Yuejiao Gong.*
+*Maintained by members in SCUT-Ailab: Yuanting Zhong, Haogan Huang, Xianrong Zhang, Yuhong Sun and Yuejiao Gong.*
+
+
 
 ## [Content](#content)
 
 <table>
-<tr><td><a href="#survey papers">1.survey</a></td></tr>
-<tr><td><a href="#large-scale">2.large-scale</a></td></tr>
-<tr><td><a href="#dynamic">3.dynamic</a></td></tr>
-<tr><td><a href="#federated">4.federated</a></td></tr>
-<tr><td><a href="#multi-objective">5.multi-objective</a></td></tr>
-<tr><td><a href="#others">6.others</a></td></tr>
+<tr><td><a href="#survey">1. Survey</a></td></tr>
+<tr><td><a href="#global">2. Global Optimization</a></td></tr>
+<tr><td><a href="#multi-objective">3. Multi-Objective Optimization</a></td></tr>
+<tr><td><a href="#large-scale">4. Large-Scale Optimization</a></td></tr>
+<tr><td><a href="#dynamic">5. Dynamic Optimization</a></td></tr>
+<tr><td><a href="#federated">6. Federated Data-Driven Optimization</a></td></tr>
+<tr><td><a href="#others">7. Others & Applications</a></td></tr>
 </table>
 
-### [1.survey papers](#content)
+### [1. Survey Papers](#content)
    **Data-Driven Evolutionary Optimization: Integrating Evolutionary Computation, Machine Learning and Data Science** 2021 [book](https://link.springer.com/10.1007/978-3-030-74640-7)
 
    *Yaochu Jin, Handing Wang, Chaoli Sun*
+
+   **Open Issues in Surrogate-Assisted Optimization** 2020 [book chapter](http://link.springer.com/10.1007/978-3-030-18764-4_10)
+
+   *Jörg Stork, Martina Friese, Martin Zaefferer, Thomas Bartz-Beielstein, Andreas Fischbach, Beate Breiderhoff, Boris Naujoks and Tea Tušar*
 
    **Data-Driven Evolutionary Optimization: An Overview and Case Studies** 2019 [paper](https://ieeexplore.ieee.org/document/8456559/)
    
    *Yaochu Jin, Handing Wang, Tinkle Chugh, Dan Guo and Kaisa Miettinen*
 
+ **A survey on handling computationally expensive multiobjective optimization problems with evolutionary algorithms** 2019 [paper](https://link.springer.com/article/10.1007/s00500-017-2965-0)
+   
+   *Tinkle Chugh, Karthik Sindhya, Jussi Hakanen and Kaisa Miettinen*
 
-
-
-
-
-### [2.large-scale](#content)
+### [2. Global Optimization](#content)
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
-|TS-DDEO|Two-Stage Data-Driven Evolutionary Optimization for High-Dimensional Expensive Problems *2023* [paper](https://ieeexplore.ieee.org/document/9580489)|[zhenhuixiang/TS-DDEO code.zip](https://zhenhuixiang.github.io/code/TS-DDEO%20code.zip)|
 |CL-DDEA [offline]|Contrastive Learning: An Alternative Surrogate for Offline Data-Driven Evolutionary Computation *2023* [paper](https://ieeexplore.ieee.org/document/9763851)|[YuejiaoGong/CL-DDEA](https://github.com/YuejiaoGong/CL-DDEA)|
 |MS-DDEO [offline]|Offline data‐driven evolutionary optimization based on model selection *2022* [paper](https://linkinghub.elsevier.com/retrieve/pii/S2210650222000487)|-|
-|SAEA-PRG|A Surrogate-Assisted Evolutionary Feature Selection Algorithm With Parallel Random Grouping for High-Dimensional Classification *2022* [paper](https://ieeexplore.ieee.org/document/9706363)|[HandingWangXDGroup/SAEAPRG](https://github.com/HandingWangXDGroup/SAEAPRG)|
-|ESCO|An Ensemble Surrogate-Based Coevolutionary Algorithm for Solving Large-Scale Expensive Optimization Problems *2022* [paper](https://ieeexplore.ieee.org/document/9894365)|[Xunfeng-Wu/ESCO](https://github.com/Xunfeng-Wu/ESCO)|
+|SDH-Jaya|A surrogate-assisted Jaya algorithm based on optimal directional guidance and historical learning mechanism *2022* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197622000628)|[zzzhhh-320/SDHJAYA](https://github.com/zzzhhh-320/SDHJAYA)|
+|ESA|Evolutionary Sampling Agent for Expensive Problems *2022* [paper](https://ieeexplore.ieee.org/document/9780561)|[zhenhuixiang/EAS code.zip](https://zhenhuixiang.github.io/code/ESA%20code.zip)|
 |CA-LLSO|A Classifier-Assisted Level-Based Learning Swarm Optimizer for Expensive Optimization *2021* [paper](https://ieeexplore.ieee.org/document/9171272)|[CarrieWei/CA-LLSO_Code](https://github.com/CarrieWei/CA-LLSO_Code)|
-|SAMSO|A Surrogate-Assisted Multiswarm Optimization Algorithm for High-Dimensional Computationally Expensive Problems *2021* [paper](https://ieeexplore.ieee.org/document/8994184)|[fanli525/SAMSO](https://github.com/fanli525/SAMSO)|
 |TT-DDEA [offline]|Offine Data-Driven Evolutionary Optimization Based on Tri-Training, Swarm and Evolutionary Computation *2021* [paper](https://www.sciencedirect.com/science/article/abs/pii/S2210650220304533)|[Mikasa210/TT-DDEA](https://github.com/Mikasa210/TT-DDEA)|
+|DESO|Data-driven evolutionary sampling optimization for expensive problems *2021* [paper](https://ieeexplore.ieee.org/document/9430108)|[zhenhuixiang/DESO code.zip](https://zhenhuixiang.github.io/code/DESO%20code.zip)|
+|BiS-SAHA|A bi-stage surrogate assisted hybrid algorithm for expensive optimization problems *2021* [paper](https://link.springer.com/article/10.1007/s40747-021-00277-1)|[IIS-tyust/BiS-SAHA](https://github.com/IIS-tyust/BiS-SAHA)|
 |SAEA-RFS|A Surrogate-Assisted Evolutionary Algorithm with Random Feature Selection for Large-Scale Expensive Problems *2020* [paper](http://link.springer.com/10.1007/978-3-030-58112-1_9)|[GuoxiaFu/SAEA_RFS](https://github.com/GuoxiaFu/SAEA-RFS)|
 |BDDEA-LDG [offline]|Boosting Data-Driven Evolutionary Algorithm With Localized Data Generation *2020* [paper](https://ieeexplore.ieee.org/document/9039758)|-|
+|TL-SSLPSO|Truncation-learning-driven surrogate assisted social learning particle swarm optimization for computationally expensive problem *2020* [paper](https://www.sciencedirect.com/science/article/abs/pii/S156849462030750Xs)|[yuhaibo2017/TL-SSLPSO](https://github.com/yuhaibo2017/TL-SSLPSO)|
+|TSA-BFEA|Transfer stacking from low-to high-fidelity: A surrogate-assisted bi-fidelity evolutionary algorithm *2020* [paper](https://www.sciencedirect.com/science/article/abs/pii/S1568494620302167)|[HandingWang/TSA-BFEA](https://github.com/HandingWang/TSA-BFEA)|
 |DDEA-SE [offline]|Offline Data-Driven Evolutionary Optimization Using Selective Surrogate Ensembles *2019* [paper](https://ieeexplore.ieee.org/document/8357456/)|[HandingWang/DDEA-SE](https://github.com/HandingWang/DDEA-SE)|
-|CCJADE|Investigating surrogate-assisted cooperative coevolution for large-Scale global optimization *2019* [paper](https://www.sciencedirect.com/science/article/abs/pii/S002002551930009X)|[lsgo-metaheuristics/saccde](https://github.com/lsgo-metaheuristics/saccde)|
-|SA-COSO|Surrogate-assisted cooperative swarm optimization of high-dimensional expensive problems *2017* [paper](https://ieeexplore.ieee.org/document/7865982)|[IIS-tyust/SA-COSO](https://github.com/IIS-tyust/SA-COSO)|
-
-
-
-
-### [3.dynamic](#content)
-|Algorithm|Paper|Original Repository|
-|:-:|:-:|:-:|
-|||
-
-### [4.federated](#content)
-|Algorithm|Paper|Original Repository|
-|:-:|:-:|:-:|
-|||
-
-### [5.multi-objective](#content)
+|GORS-SSLPSO|A generation-based optimal restart strategy for surrogate-assisted social learning particle swarm optimization *2019* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705118304064)|[yuhaibo2017/GORS-SSLPSO_code](https://github.com/yuhaibo2017/GORS-SSLPSO_code)|
+|SRK-DDEA|Ranking for Offline Data-Driven Evolutionary Optimization Using Radial Basis Function Networks with Multiple Kernels *2019* [paper](https://ieeexplore.ieee.org/document/9002961)|[Mikasa210/SRK-DDEA](https://github.com/Mikasa210/SRK-DDEA)|
+|SSL-assisted-PSO|Semi-supervised learning assisted particle swarm optimization of computationally expensive problems *2018* [paper](https://dl.acm.org/doi/10.1145/3205455.3205596)|[IIS-tyust/SSL-assisted-PSO](https://github.com/IIS-tyust/SSL-assisted-PSO)|
+|SHPSO|Surrogate-assisted hierarchical particle swarm optimization *2018* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0020025518303293)|[yuhaibo2017/SHPSO_code](https://github.com/yuhaibo2017/SHPSO_code)|
+|CALSAPSO|Committee-based Active Learning for Surrogate-Assisted Particle Swarm Optimization of Expensive Problems *2017* [paper](https://ieeexplore.ieee.org/document/7955012)|[HandingWang/CALSAPSO](https://github.com/HandingWang/CALSAPSO)|
+|TLSAPSO|A two-layer surrogate-assisted particle swarm optimization algorithm *2015* [paper](https://link.springer.com/article/10.1007/s00500-014-1283-z)|[IIS-tyust/TLSAPSO](https://github.com/IIS-tyust/TLSAPSO)|
+### [3. Multi-Objective Optimization](#content)
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
 |TS-SAEA|A Two-stage Surrogate-Assisted Evolutionary Algorithm (TS-SAEA) for Expensive Multi/Many-objective Optimization *2022* [paper](https://linkinghub.elsevier.com/retrieve/pii/S2210650222000773)|-|
@@ -83,24 +81,45 @@ This respository aims to maintain a list of useful relevant papers and open sour
 |K-RVEA|A surrogate-assisted reference vector guided evolutionary algorithm for computationally expensive many-objective optimization *2016* [paper](https://ieeexplore.ieee.org/document/7723883)|[tichugh/K-RVEA](https://github.com/tichugh/K-RVEA)|
 
 
-
-### [6.others](#content)
+### [4. Large-Scale Optimization](#content)
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
-|SDH-Jaya|A surrogate-assisted Jaya algorithm based on optimal directional guidance and historical learning mechanism *2022* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0952197622000628)|[zzzhhh-320/SDHJAYA](https://github.com/zzzhhh-320/SDHJAYA)|
-|ESA|Evolutionary Sampling Agent for Expensive Problems *2022* [paper](https://ieeexplore.ieee.org/document/9780561)|[zhenhuixiang/EAS code.zip](https://zhenhuixiang.github.io/code/ESA%20code.zip)|
-|DESO|Data-driven evolutionary sampling optimization for expensive problems *2021* [paper](https://ieeexplore.ieee.org/document/9430108)|[zhenhuixiang/DESO code.zip](https://zhenhuixiang.github.io/code/DESO%20code.zip)|
-|BiS-SAHA|A bi-stage surrogate assisted hybrid algorithm for expensive optimization problems *2021* [paper](https://link.springer.com/article/10.1007/s40747-021-00277-1)|[IIS-tyust/BiS-SAHA](https://github.com/IIS-tyust/BiS-SAHA)|
+|TS-DDEO|Two-Stage Data-Driven Evolutionary Optimization for High-Dimensional Expensive Problems *2023* [paper](https://ieeexplore.ieee.org/document/9580489)|[zhenhuixiang/TS-DDEO code.zip](https://zhenhuixiang.github.io/code/TS-DDEO%20code.zip)|
+|SAEA-PRG|A Surrogate-Assisted Evolutionary Feature Selection Algorithm With Parallel Random Grouping for High-Dimensional Classification *2022* [paper](https://ieeexplore.ieee.org/document/9706363)|[HandingWangXDGroup/SAEAPRG](https://github.com/HandingWangXDGroup/SAEAPRG)|
+|ESCO|An Ensemble Surrogate-Based Coevolutionary Algorithm for Solving Large-Scale Expensive Optimization Problems *2022* [paper](https://ieeexplore.ieee.org/document/9894365)|[Xunfeng-Wu/ESCO](https://github.com/Xunfeng-Wu/ESCO)|
+|SAMSO|A Surrogate-Assisted Multiswarm Optimization Algorithm for High-Dimensional Computationally Expensive Problems *2021* [paper](https://ieeexplore.ieee.org/document/8994184)|[fanli525/SAMSO](https://github.com/fanli525/SAMSO)|
+|CCJADE|Investigating surrogate-assisted cooperative coevolution for large-scale global optimization *2019* [paper](https://www.sciencedirect.com/science/article/abs/pii/S002002551930009X)|[lsgo-metaheuristics/saccde](https://github.com/lsgo-metaheuristics/saccde)|
+|SA-COSO|Surrogate-assisted cooperative swarm optimization of high-dimensional expensive problems *2017* [paper](https://ieeexplore.ieee.org/document/7865982)|[IIS-tyust/SA-COSO](https://github.com/IIS-tyust/SA-COSO)|
+
+
+### [5. Dynamic Optimization](#content)
+|Algorithm|Paper|Original Repository|
+|:-:|:-:|:-:|
+|DSE-MFS|A Data Stream Ensemble Assisted Multifactorial Evolutionary Algorithm for Offline Data-driven Dynamic Optimization *2023* [paper](https://direct.mit.edu/evco/article-abstract/doi/10.1162/evco_a_00332/115655/A-Data-Stream-Ensemble-Assisted-Multifactorial?redirectedFrom=fulltext)|[Peacefulyang/DSE_MFS](https://github.com/Peacefulyang/DSE_MFS.git)|
+|DETO|A Data-Driven Evolutionary Transfer Optimization for Expensive Problems in Dynamic Environments *2022* [paper](http://arxiv.org/abs/2211.02879)|-|
+|MBO-DOP|Model-based optimization with concept drifts *2020* [paper](https://dl.acm.org/doi/10.1145/3377930.3390175)|-|
+|TL-MOEA/D-EGO|Surrogate Assisted Evolutionary Algorithm Based on Transfer Learning for Dynamic Expensive Multi-Objective Optimisation Problems *2020* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120304536)|-|
+|1SGP, 1S_RBF, *etc*|Surrogate-Assisted Evolutionary Framework for Data-Driven Dynamic Optimization *2019* [paper](https://ieeexplore.ieee.org/document/8502789/)|-|
+|EGO|Tracking global optima in dynamic environments with efficient global optimization *2015* [paper](https://linkinghub.elsevier.com/retrieve/pii/S0377221714009515)|-|
+
+### [6. Federated Data-Driven Optimization](#content)
+|Algorithm|Paper|Original Repository|
+|:-:|:-:|:-:|
+|FDD-EA-DH|A Secure Federated Data-Driven Evolutionary Multi-objective Optimization Algorithm *2022* [paper](http://arxiv.org/abs/2210.08295)|-|
+|FDD-EA|A federated data-driven evolutionary algorithm *2021* [paper](https://linkinghub.elsevier.com/retrieve/pii/S0950705121007942)|-|
+
+
+
+
+
+### [7. Others & Applications](#content)
+|Algorithm|Paper|Original Repository|
+|:-:|:-:|:-:|
+|DDEA-DLS|Automated Team Assembly in Mobile Games: A Data-Driven Evolutionary Approach using a Deep Learning Surrogate *2022* [paper](https://ieeexplore.ieee.org/document/9693290/)|-|
 |RF-CNS|A random forest assisted evolutionary algorithm using competitive neighborhood search for expensive constrained combinatorial optimization *2021* [paper](https://link.springer.com/article/10.1007/s12293-021-00326-9)|[HandingWangXDGroup/RF-CNS](https://github.com/HandingWangXDGroup/RF-CNS)|
 |MS-MTO|Multi-surrogate multi-tasking optimization of expensive problems *2020* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120304536)|[IIS-tyust/MS-MTO](https://github.com/IIS-tyust/MS-MTO)|
-|TL-SSLPSO|Truncation-learning-driven surrogate assisted social learning particle swarm optimization for computationally expensive problem *2020* [paper](https://www.sciencedirect.com/science/article/abs/pii/S156849462030750Xs)|[yuhaibo2017/TL-SSLPSO](https://github.com/yuhaibo2017/TL-SSLPSO)|
-|TSA-BFEA|Transfer stacking from low-to high-fidelity: A surrogate-assisted bi-fidelity evolutionary algorithm *2020* [paper](https://www.sciencedirect.com/science/article/abs/pii/S1568494620302167)|[HandingWang/TSA-BFEA](https://github.com/HandingWang/TSA-BFEA)|
-|GORS-SSLPSO|A generation-based optimal restart strategy for surrogate-assisted social learning particle swarm optimization *2019* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705118304064)|[yuhaibo2017/GORS-SSLPSO_code](https://github.com/yuhaibo2017/GORS-SSLPSO_code)|
-|SRK-DDEA|Ranking for Offline Data-Driven Evolutionary Optimization Using Radial Basis Function Networks with Multiple Kernels *2019* [paper](https://ieeexplore.ieee.org/document/9002961)|[Mikasa210/SRK-DDEA](https://github.com/Mikasa210/SRK-DDEA)|
-|SSL-assisted-PSO|Semi-supervised learning assisted particle swarm optimization of computationally expensive problems *2018* [paper](https://dl.acm.org/doi/10.1145/3205455.3205596)|[IIS-tyust/SSL-assisted-PSO](https://github.com/IIS-tyust/SSL-assisted-PSO)|
-|SHPSO|Surrogate-assisted hierarchical particle swarm optimization *2018* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0020025518303293)|[yuhaibo2017/SHPSO_code](https://github.com/yuhaibo2017/SHPSO_code)|
-|CALSAPSO|Committee-based Active Learning for Surrogate-Assisted Particle Swarm Optimization of Expensive Problems *2017* [paper](https://ieeexplore.ieee.org/document/7955012)|[HandingWang/CALSAPSO](https://github.com/HandingWang/CALSAPSO)|
-|TLSAPSO|A two-layer surrogate-assisted particle swarm optimization algorithm *2015* [paper](https://link.springer.com/article/10.1007/s00500-014-1283-z)|[IIS-tyust/TLSAPSO](https://github.com/IIS-tyust/TLSAPSO)|
 
 
 
+
+*The annotation [offline] indicates the offline DDEAs that are purely data-driven without any new funtion evalutions during the optimization.*
