@@ -57,6 +57,7 @@ This respository aims to maintain a list of useful relevant papers and open sour
 |SHPSO|Surrogate-assisted hierarchical particle swarm optimization *2018* [paper](https://www.sciencedirect.com/science/article/abs/pii/S0020025518303293)|[yuhaibo2017/SHPSO_code](https://github.com/yuhaibo2017/SHPSO_code)|
 |CALSAPSO|Committee-based Active Learning for Surrogate-Assisted Particle Swarm Optimization of Expensive Problems *2017* [paper](https://ieeexplore.ieee.org/document/7955012)|[HandingWang/CALSAPSO](https://github.com/HandingWang/CALSAPSO)|
 |TLSAPSO|A two-layer surrogate-assisted particle swarm optimization algorithm *2015* [paper](https://link.springer.com/article/10.1007/s00500-014-1283-z)|[IIS-tyust/TLSAPSO](https://github.com/IIS-tyust/TLSAPSO)|
+
 ### [3. Multi-Objective Optimization](#content)
 |Algorithm|Paper|Original Repository|
 |:-:|:-:|:-:|
